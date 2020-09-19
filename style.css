@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+body{
+	background:#262626 url(image/photo11.jpg);
+	background-size: cover;
+	background-position: center;
+	
+	font-family: sans-serif;
+
+}
+.menu{
+	background:transparent;
+	text-align: center;
+	margin-top: 0px;
+
+}
+
+.menu ul{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menu ul li{
+	width: 120px;
+	margin: 15px;
+	padding: 10px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+ .active, .menu ul li:hover{
+	background: #2bab0d;
+	border-radius: 5px;
+}
+.menu .fa{
+	margin-left:8px;
+}*/
+#snowfall{
+	height: 100vh;
+	width: 100%;
+}
+/*.title{
+	position: absolute;
+	top: 50%;
+	left: 48%;
+
+}	
+	
+}
+h1{
+	color: white;
+	height:50px;
+}
+.button{
+	position: absolute;
+	top: 58%;
+	left: 45%;
+	list-style: none;
+	transform: translate((-50%,-50%));
+	float: right;
+}
+.btn{
+	text-decoration: none;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	color: white;
+	transition: 0.5s ease;
+}
+.btn:hover{
+	background-color: white;
+	color: black;
+
+}
+
+
+*/
+@media screen and (max-width: 700px){
+	.menu ul li{
+	width: 60px;
+	margin: 5px;
+	padding: 5px;
+}
+	
+}
